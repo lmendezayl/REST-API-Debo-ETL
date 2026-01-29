@@ -52,11 +52,11 @@ PORT=8000
 
 1.  **Construir imagen**:
     ```bash
-    docker build -t backend-grupo-penna .
+    docker build -t backend
     ```
 2.  **Correr contenedor**:
     ```bash
-    docker run -d -p 8092:8000 --env-file .env backend-grupo-penna
+    docker run -d -p XXXX:8000 --env-file .env backend
     ```
 
 ## 🔌 Endpoints
